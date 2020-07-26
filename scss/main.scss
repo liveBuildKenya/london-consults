@@ -42,7 +42,7 @@ body {
     }
     #information {
         position: absolute;
-        bottom: 4rem;
+        top: 70vh;
         left: 2rem;
         z-index: 99;
         h5 {
@@ -77,13 +77,5 @@ body {
             flex-direction: row;
             flex-wrap: nowrap;
         }
-    }
-}
-
-@media only screen and (max-width: 415px) {
-    #information{
-        position: absolute;
-        bottom: unset;
-        top: 70vh;
     }
 }
