@@ -79,3 +79,11 @@ body {
         }
     }
 }
+
+@media only screen and (max-width: 415px) {
+    #information{
+        position: absolute;
+        bottom: unset;
+        top: 70vh;
+    }
+}
