@@ -28,7 +28,6 @@ body {
         left: 2rem;
         z-index: 99;
         font-size: 1.6rem;
-
     }
     #company-contact {
         position: absolute;
@@ -36,10 +35,14 @@ body {
         right: 2rem;
         z-index: 99;
         font-size: 1rem;
+        a{
+            color: #ccc;
+            text-decoration: none;
+        }
     }
     #information {
         position: absolute;
-        bottom: 2.8rem;
+        bottom: 4rem;
         left: 2rem;
         z-index: 99;
         h5 {

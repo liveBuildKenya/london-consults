@@ -41,9 +41,14 @@ body {
   font-size: 1rem;
 }
 
+#header #company-contact a {
+  color: #ccc;
+  text-decoration: none;
+}
+
 #header #information {
   position: absolute;
-  bottom: 2.8rem;
+  bottom: 4rem;
   left: 2rem;
   z-index: 99;
 }
